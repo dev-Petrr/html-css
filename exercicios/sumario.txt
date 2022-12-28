@@ -1,0 +1,2 @@
+exr = exercício de reforço
+exp = exercício próprio (projetinhos próprios)

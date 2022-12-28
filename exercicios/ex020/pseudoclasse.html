@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo classes</title>
+
+  <style>
+    div {
+      display: inline-block;
+      background-color: #939496;
+      border: 1px solid black;
+      text-align: center;
+      height: 200px;
+      width: 200px;
+
+    }
+
+    #um > p {
+      display: none;
+    }
+
+    #um:hover > p {
+      display: block;
+      font-weight: bold;
+      background-color: white;
+    }
+
+    #um:hover {
+      background-color: #ffff00;
+    }
+
+    #dois > p {
+      display: none;
+    }
+
+    #dois:hover > p {
+      display: block;
+      font-weight: bold;
+      background-color: white;
+    }
+    
+    #dois:hover {
+      background-color: #0059ff;
+    }
+
+    #tres > p { 
+      display: none;
+    }
+
+    #tres:hover > p {
+      display: block;
+      font-weight: bold;
+      background-color: white;
+    }
+
+    #tres:hover {
+      background-color: #aa0707;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div id="um">
+    01
+    <p>
+      OLÁ,
+
+    </p>
+  </div>
+  <div id="dois">
+    02
+    <p>
+      GRANDE
+    </p>
+  </div>
+  <div id="tres">
+    03
+    <p>
+      FEINHA!
+    </p>
+  </div>
+  
+</body>
+</html>
